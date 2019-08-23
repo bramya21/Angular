@@ -1,0 +1,13 @@
+<h1>Registration Form</h1>
+<b>Enter Name </b>
+<input type="text" [(ngModel)]="name"/>
+<br>
+<b>Enter Age</b>
+<input type="number" [(ngModel)]="age"/>
+<br>
+<b>Enter Address</b>
+<input type="text" [(ngModel)]="address"/>
+<br>
+<button (click)="Register()">Register</button>
+<hr>
+<span>{{registerStatus}}</span>
