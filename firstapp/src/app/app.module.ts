@@ -5,12 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegistrationComponent } from './registration/registration.component';
+import { IfComponent } from './if/if.component';
+import { ForComponent } from './for/for.component';
+import { MovieComponent } from './movie/movie.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    RegistrationComponent
+    RegistrationComponent,
+    IfComponent,
+    ForComponent,
+    MovieComponent
   ],
   imports: [
     BrowserModule,

@@ -5,7 +5,9 @@
 <b>Enter password </b>
 <input type="password" [(ngModel)]="password"/>
 <br>
-<button (click)="Login()">Login</button>
+<button #id (click)="Login(status,imgs)" >Login</button>
 <hr>
-<span>{{loginStatus}}</span>
+<span #status class="loginStyle">{{loginStatus}}</span>
+<br>
+<img #imgs src=""/>
 

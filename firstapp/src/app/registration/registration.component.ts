@@ -17,7 +17,14 @@ export class RegistrationComponent implements OnInit {
   public registerStatus:string;
   Register()
   {
+    if(this.name!=""&&this.address!=""&&this.age!=null){
     this.registerStatus="Registration Successful";
   }
+  else
+  {
+    this.registerStatus="Please fill all the details";
+  }
 
+
+}
 }

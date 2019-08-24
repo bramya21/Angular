@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { BuiltinType, identifierModuleUrl } from '@angular/compiler';
 
 @Component({
   selector: 'app-login',
@@ -14,13 +15,19 @@ export class LoginComponent implements OnInit {
   public username:string;
   public password:string;
   public loginStatus:string;
-  public Login()
+  public Login(colStatus:any,imgStatus:any)
   {
+    
     if(this.username=="admin" && this.password=="nimda")
-      this.loginStatus="Successful";
+    {  this.loginStatus="Successful";
+     colStatus.style="color:green";
+     //colStatus.disabled=true;
+     imgStatus.src="/assets/download.jpg";
+  
+  }
     else
-      this.loginStatus="Invalid";
-
+     { this.loginStatus="Invalid";colStatus.style="color:red";}
+    
 
   }
 }
