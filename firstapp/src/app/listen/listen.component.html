@@ -1,0 +1,9 @@
+<h1>Listen Component</h1>
+<br>
+<h3>Type the words to be spoken</h3>
+<input type="text" #box /><br>
+<b>Providing value for prop property of listen component</b>
+<input type="text" [(ngModel)]="prop"/>
+<hr>
+<app-speak [wordsToBeSpoken]="speech" (speak)="onSpeak(box)" [(sampleNgModel)]="prop">
+</app-speak>

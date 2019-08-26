@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'TravelApp';
+  title = 'TravelApp';bh
   public location:string="Manali";
   public city:string="Kullu Manali";
   public state:string="Himachal Pradesh";

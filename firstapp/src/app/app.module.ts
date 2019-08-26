@@ -8,6 +8,15 @@ import { RegistrationComponent } from './registration/registration.component';
 import { IfComponent } from './if/if.component';
 import { ForComponent } from './for/for.component';
 import { MovieComponent } from './movie/movie.component';
+import { SwitchComponent } from './switch/switch.component';
+import { BuiltInPipeComponent } from './built-in-pipe/built-in-pipe.component';
+import { ReversePipe } from './reverse.pipe';
+import { ValidatePipe } from './validate.pipe';
+import { SpeakComponent } from './speak/speak.component';
+import { ListenComponent } from './listen/listen.component';
+import { C1Component } from './c1/c1.component';
+import { C2Component } from './c2/c2.component';
+import { CommunicatorComponent } from './communicator/communicator.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +25,16 @@ import { MovieComponent } from './movie/movie.component';
     RegistrationComponent,
     IfComponent,
     ForComponent,
-    MovieComponent
+    MovieComponent,
+    SwitchComponent,
+    BuiltInPipeComponent,
+    ReversePipe,
+    ValidatePipe,
+    SpeakComponent,
+    ListenComponent,
+    C1Component,
+    C2Component,
+    CommunicatorComponent
   ],
   imports: [
     BrowserModule,

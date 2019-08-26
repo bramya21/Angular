@@ -1,0 +1,22 @@
+
+
+<hr>
+<nav class="navbar navbar-default">
+<div class="container-fluid">
+<div class="navbar-header">
+        <button class="btn btn-primary" (click)="currentOperator='+'">Add</button>
+        <button  class="btn btn-success" (click)="currentOperator='-'">Sub</button>
+        <button  class="btn btn-warning" (click)="currentOperator='*'">Mul</button>
+        <button  class="btn btn-danger" (click)="currentOperator='/'">Div</button>
+</div>
+</div>
+</nav>
+<div [ngSwitch]="currentOperator">
+        
+    <div  *ngSwitchCase="'+'"><app-for></app-for></div>
+    <div *ngSwitchCase="'-'"><app-movie></app-movie></div>
+    <div *ngSwitchCase="'*'"><app-if></app-if></div>
+    <div *ngSwitchCase="'/'"><app-switch></app-switch></div>
+    
+</div>
+

@@ -1,0 +1,12 @@
+<input type="text" [(ngModel)]="Username"/>
+<button (click)="getFbPosts(Username)">Get</button>
+
+<hr>
+<ul *ngFor="let item of userPosts">
+    <li>{{item.username}} |
+        {{item.postTitle}} |
+        {{item.postDescription}}
+    </li>
+</ul>
+<hr>
+<h3>Total tweets : {{pTwitter.getTotalTweets("Ravali")}}</h3>
