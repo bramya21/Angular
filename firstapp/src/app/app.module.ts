@@ -17,6 +17,11 @@ import { ListenComponent } from './listen/listen.component';
 import { C1Component } from './c1/c1.component';
 import { C2Component } from './c2/c2.component';
 import { CommunicatorComponent } from './communicator/communicator.component';
+import { HomepageComponent } from './homepage/homepage.component';
+import { ViewtransactionComponent } from './viewtransaction/viewtransaction.component';
+import { HttpPromiseComponent } from './http-promise/http-promise.component';
+import {HttpClientModule} from '@angular/common/http';
+import { HttpobservableComponent } from './httpobservable/httpobservable.component';
 
 @NgModule({
   declarations: [
@@ -34,12 +39,17 @@ import { CommunicatorComponent } from './communicator/communicator.component';
     ListenComponent,
     C1Component,
     C2Component,
-    CommunicatorComponent
+    CommunicatorComponent,
+    HomepageComponent,
+    ViewtransactionComponent,
+    HttpPromiseComponent,
+    HttpobservableComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
