@@ -1,0 +1,18 @@
+package com.conv;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
+
+public class Visitor {
+	@Value("ramya")
+	String name;
+	@Value("70")
+	double money;
+	
+	@Autowired
+	@Qualifier
+	CurrencyConverter c;
+	
+	
+}

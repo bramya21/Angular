@@ -1,0 +1,5 @@
+package com.lifecycle.src;
+
+public class HelloWorld {
+
+}

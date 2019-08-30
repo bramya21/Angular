@@ -1,0 +1,8 @@
+package com.lifecycle.test;
+
+public class TestLifeCycle {
+	public static void main(String args[])
+	{
+		
+	}
+}

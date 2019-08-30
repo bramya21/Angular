@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\Abridge Solutions\Documents\workspace-spring-tool-suite-4-4.3.2.RELEASE\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+121083333.index
+1345302021.index
+355884939.index
+1667525835.index
+3445327201.index
+2821280886.index

@@ -1,0 +1,51 @@
+package com.example.demo;
+
+
+
+import java.sql.Date;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
+public class Customer_Transactions {
+	@Id
+	@GeneratedValue
+	int tid;
+	String fromaccno;
+	String toaccno;
+	Date date;
+	double amttransfer;
+	public int getTid() {
+		return tid;
+	}
+	public void setTid(int tid) {
+		this.tid = tid;
+	}
+	public String getFromaccno() {
+		return fromaccno;
+	}
+	public void setFromaccno(String fromaccno) {
+		this.fromaccno = fromaccno;
+	}
+	public String getToaccno() {
+		return toaccno;
+	}
+	public void setToaccno(String toaccno) {
+		this.toaccno = toaccno;
+	}
+	public Date getDate() {
+		return date;
+	}
+	public void setDate(Date date) {
+		this.date = date;
+	}
+	public double getAmttransfer() {
+		return amttransfer;
+	}
+	public void setAmttransfer(double amttransfer) {
+		this.amttransfer = amttransfer;
+	}
+	
+}

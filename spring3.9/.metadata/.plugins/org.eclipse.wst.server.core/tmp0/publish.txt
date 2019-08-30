@@ -1,0 +1,5 @@
+#Tomcat publish data
+#Wed Aug 14 16:34:52 IST 2019
+org.eclipse.jst.jee.server\:1mvcHelloMVC=C\:\\Sottwares\\software\\New folder\\sts-bundle\\pivotal-tc-server\\instances\\base-instance\\wtpwebapps\\1mvcHelloMVC
+org.eclipse.jst.jee.server\:SpringMVC=C\:\\Sottwares\\software\\New folder\\sts-bundle\\pivotal-tc-server\\instances\\base-instance\\wtpwebapps\\SpringMVC
+org.eclipse.jst.jee.server\:HelloMVC=C\:\\Sottwares\\software\\New folder\\sts-bundle\\pivotal-tc-server\\instances\\base-instance\\wtpwebapps\\HelloMVC

@@ -1,0 +1,4 @@
+
+public class Calc1 implements Calc {
+
+}

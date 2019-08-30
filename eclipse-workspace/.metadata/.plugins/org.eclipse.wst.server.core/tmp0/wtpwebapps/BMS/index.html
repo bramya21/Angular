@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+Select the option
+<form action="bean.jsp">
+<div>
+<div class="form-group col-xs-10">
+    	
+<input type="radio" name="bookdetails" value="add"><span class="badge">Add Book</span>
+  </div>
+  <div class="form-group col-xs-10">
+    	
+<input type="radio" name="bookdetails" value="view"><span class="badge">View a Book</span>
+  </div>
+  <div class="form-group col-xs-10">
+    	
+<input type="radio" name="bookdetails" value="viewall"><a href="http://localhost:8080/BMS/beanbook.jsp?s=viewall"><span class="badge">View all books</span></a>
+  </div>
+  <div class="form-group col-xs-10">
+    	
+<input type="radio" name="bookdetails" value="delete"><span class="badge">Delete a book</span>
+  </div>
+   <div class="form-group col-xs-10">
+    	
+<input type="radio" name="bookdetails" value="update"><span class="badge">Update a Book</span>
+  </div>
+  
+<br>
+<div class="form-group col-xs-10">
+    	
+<button class="btn btn-dark">select</button>
+
+  </div>
+</div>
+
+</form>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="calc1" class="Calc1"></bean>
+	<bean id="calc2" class="Calc2"></bean>
+	
+	<bean id="user" class="User">
+	
+		<property name="a" value="1"></property>
+		<property name="b" value="2"></property>
+		<property name="c" ref="calc2"></property>
+		
+	</bean>
+	
+</beans>

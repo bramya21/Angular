@@ -1,0 +1,56 @@
+package com.example.demo;
+
+
+
+import java.sql.Date;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
+public class Customer_Transactions {
+	@Id
+	@GeneratedValue
+	int tid;
+	String fromaccno;
+	String toaccno;
+	
+	DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
+	   LocalDateTime now = LocalDateTime.now();
+	  
+	double amttransfer;
+	public int getTid() {
+		return tid;
+	}
+	public void setTid(int tid) {
+		this.tid = tid;
+	}
+	public String getFromaccno() {
+		return fromaccno;
+	}
+	public void setFromaccno(String fromaccno) {
+		this.fromaccno = fromaccno;
+	}
+	public String getToaccno() {
+		return toaccno;
+	}
+	public void setToaccno(String toaccno) {
+		this.toaccno = toaccno;
+	}
+	public DateTimeFormatter getDate()
+		return dtf;
+	}
+	public void setDate() {
+		this.dtf = dtf.format(now);
+	}
+	public double getAmttransfer() {
+		return amttransfer;
+	}
+	public void setAmttransfer(double amttransfer) {
+		this.amttransfer = amttransfer;
+	}
+	
+}

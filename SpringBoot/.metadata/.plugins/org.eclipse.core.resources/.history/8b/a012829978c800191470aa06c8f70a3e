@@ -1,0 +1,18 @@
+/**
+ * 
+ */
+package com.example.demo;
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+
+/**
+ * @author Abridge Solutions
+ *
+ */
+public interface TransactionsDao extends JpaRepository<Customer_Transactions, Integer> {
+
+	@Query("select * from Customer_Transactions order by date desc")
+	public List<Customer_Transactions> listtop10transactions( );
+}

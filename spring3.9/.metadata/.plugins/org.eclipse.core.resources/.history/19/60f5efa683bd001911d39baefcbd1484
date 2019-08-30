@@ -1,0 +1,36 @@
+package com.dept.src;
+
+public class Employee {
+	int id;
+	String name;
+	Dept d;
+	public Employee(int id, String name, Dept d) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.d = d;
+	}
+	public Employee( ) {
+		super();
+		
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public Dept getD() {
+		return d;
+	}
+	public void setD(Dept d) {
+		this.d = d;
+	}
+	
+}

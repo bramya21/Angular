@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=Demo12/src&lt;com.galaxy{HelloWorld.java[HelloWorld" modifiers="1" timestamp="1565603029564"/>
+<typeInfo handle="=Demo12/src&lt;{SecondExample.java[SecondExample" modifiers="1" timestamp="1565603942415"/>
+<typeInfo handle="=Department/src&lt;com.dept.src{PurchaseDept.java[PurchaseDept" modifiers="1" timestamp="1565670724771"/>
+<typeInfo handle="=Department/src&lt;com.dept.src{SalesDept.java[SalesDept" modifiers="1" timestamp="1565677807792"/>
+<typeInfo handle="=Department/src&lt;com.dept.src{Employee.java[Employee" modifiers="1" timestamp="1565670875062"/>
+<typeInfo handle="=Inheritance/src&lt;com.car.basic{Car.java[Car" modifiers="1" timestamp="1565689478751"/>
+<typeInfo handle="=Inheritance/src&lt;com.car.model{Model.java[Model" modifiers="1" timestamp="1565689535265"/>
+<typeInfo handle="=CurrConv/src&lt;com.conv{IndToDollar.java[IndToDollar" modifiers="1" timestamp="1565691348650"/>
+<typeInfo handle="=CurrConv/src&lt;com.conv{IndToEuro.java[IndToEuro" modifiers="1" timestamp="1565691431476"/>
+<typeInfo handle="=CurrConv/src&lt;com.conv{Visitor.java[Visitor" modifiers="1" timestamp="1565695884896"/>
+<typeInfo handle="=CalculatorExample/C:\/Users\/Abridge Solutions\/Desktop\/Spring jars\/spring-webmvc-4.2.0.RELEASE.jar&lt;org.springframework.web.servlet.view(InternalResourceViewResolver.class[InternalResourceViewResolver" modifiers="33" timestamp="1565599350000"/>
+</typeInfoHistroy>

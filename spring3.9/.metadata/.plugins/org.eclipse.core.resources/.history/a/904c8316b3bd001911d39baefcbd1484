@@ -1,0 +1,5 @@
+package com.conv;
+
+public interface CurrencyConverter {
+
+}

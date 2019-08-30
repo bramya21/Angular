@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Division</title>
+</head>
+<body>
+<form action="Division1.jsp" >
+First No. <input type='text' name='t1'><br>
+Second No. <input type='text' name='t2'><br>
+<input type='submit' name='submit' value='submit'>
+</form>
+</body>
+</html>

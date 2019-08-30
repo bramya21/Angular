@@ -1,0 +1,13 @@
+
+public class SecondExample {
+	String msg;
+
+	public SecondExample(String msg) {
+		super();
+		this.msg = msg;
+	}
+	public void sayHi()
+	{
+		System.out.println("hi from spring constructor bean");	}
+	
+}

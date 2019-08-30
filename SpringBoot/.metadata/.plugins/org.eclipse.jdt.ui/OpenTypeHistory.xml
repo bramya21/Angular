@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=AOPsample/C:\/Users\/Abridge Solutions\/Desktop\/Spring jars\/spring-aop-4.2.0.RELEASE.jar&lt;org.springframework.aop(MethodBeforeAdvice.class[MethodBeforeAdvice" modifiers="1537" timestamp="1565599304000"/>
+<typeInfo handle="=dbdemo-1/C:\/Users\/Abridge Solutions\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.1.10.RELEASE\/spring-data-jpa-2.1.10.RELEASE.jar&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1565955238974"/>
+<typeInfo handle="=AOPsample/C:\/Users\/Abridge Solutions\/Desktop\/Spring jars\/spring-aop-4.2.0.RELEASE.jar&lt;org.springframework.aop(AfterReturningAdvice.class[AfterReturningAdvice" modifiers="1537" timestamp="1565599304000"/>
+<typeInfo handle="=AOPsample/C:\/Users\/Abridge Solutions\/Desktop\/Spring jars\/aopalliance-1.0.jar&lt;org.aopalliance.intercept(MethodInterceptor.class[MethodInterceptor" modifiers="1537" timestamp="1565599266000"/>
+<typeInfo handle="=AOPsample/C:\/Users\/Abridge Solutions\/Desktop\/Spring jars\/spring-aop-4.2.0.RELEASE.jar&lt;org.springframework.aop(ThrowsAdvice.class[ThrowsAdvice" modifiers="1537" timestamp="1565599304000"/>
+</typeInfoHistroy>

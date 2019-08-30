@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="LifeCycle"/>
+<aop-project name="Demo12"/>
+<aop-project name="Inheritance"/>
+<aop-project name="Department"/>
+<aop-project name="Language"/>
+<aop-project name="SpringMVC"/>
+<aop-project name="CurrConv"/>
+</aop-reference-model>

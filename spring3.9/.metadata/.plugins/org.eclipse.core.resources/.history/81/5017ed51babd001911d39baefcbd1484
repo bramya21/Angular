@@ -1,0 +1,17 @@
+package com.conv.test;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.xml.XmlBeanFactory;
+import org.springframework.core.io.ClassPathResource;
+
+import com.conv.Visitor;
+
+public class TestCurrencyConverter {
+	public static void main(String args[])
+	{
+	BeanFactory factory=new XmlBeanFactory(new ClassPathResource("ccbean.xml"));
+	Visitor us=(Visitor)factory.getBean("indtodollar");
+	System.out.println(us.callmethod());
+	}
+
+}
