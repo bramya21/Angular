@@ -8,6 +8,7 @@ import {HttpClient} from '@angular/common/http';
 export class HttpPromiseComponent  {
 
   myProp:object;
+  status:string;
   constructor(public http:HttpClient)
   {
 
@@ -26,6 +27,25 @@ export class HttpPromiseComponent  {
     .finally(()=>{console.log("In finally block");});  //endingstmt
 
 
+  }
+  PostCall(){
+    this.http.post("http://localhost:8090/bank/transactions",
+        {
+          "fromaccno":"200",
+          "toaccno":"100",
+          "amttransfer":80000
+        })
+        .toPromise()
+        .then(
+            data => {
+                console.log("POST Request is successful ", data);
+                this.status = "POST Request is successful";
+            },
+            error => {
+              console.log("Error", error);
+                this.status = "Error";
+            }
+        );    
   }
 
 }

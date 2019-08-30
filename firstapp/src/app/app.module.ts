@@ -1,7 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule} from '@angular/forms';
-import { AppRoutingModule } from './app-routing.module';
+// import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
+ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegistrationComponent } from './registration/registration.component';
@@ -22,7 +23,16 @@ import { ViewtransactionComponent } from './viewtransaction/viewtransaction.comp
 import { HttpPromiseComponent } from './http-promise/http-promise.component';
 import {HttpClientModule} from '@angular/common/http';
 import { HttpobservableComponent } from './httpobservable/httpobservable.component';
+// import { UpdateprofileComponent } from './updateprofile/updateprofile.component';
+// import { LoginuserComponent } from './loginuser/loginuser.component';
+import { UserComponent } from './user/user.component';
+import { ProductsComponent } from './products/products.component';
+import { AboutComponent } from './about/about.component';
+import { ServicesComponent } from './services/services.component';
+import { ErrorComponent } from './error/error.component';
+ import { RoutingModule } from './routing.module';
 
+ import { UserIdleModule } from 'angular-user-idle';
 @NgModule({
   declarations: [
     AppComponent,
@@ -43,13 +53,23 @@ import { HttpobservableComponent } from './httpobservable/httpobservable.compone
     HomepageComponent,
     ViewtransactionComponent,
     HttpPromiseComponent,
-    HttpobservableComponent
+    HttpobservableComponent,
+    // UpdateprofileComponent,
+    // LoginuserComponent,
+    UserComponent,
+    ProductsComponent,
+    AboutComponent,
+    ServicesComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    RoutingModule,
+    AppRoutingModule,
+    // BrowserAnimationsModule,
+    HttpClientModule,
+    UserIdleModule.forRoot({idle: 60, timeout: 30, ping: 10})
   ],
   providers: [],
   bootstrap: [AppComponent]
